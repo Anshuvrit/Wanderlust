@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌍 WanderLust Project 🏡
 
 ## Project Overview
@@ -80,3 +81,7 @@
 **@Devidatta Mishra**  
 
 This project demonstrates full-stack web development proficiency, including creating responsive front-end interfaces, managing back-end functionality, handling database operations, and integrating third-party APIs for enhanced user experience.
+=======
+# Wanderlust
+A web app for exploring, booking, and hosting short-term stays. Users can search curated listings, review properties, securely book accommodations, and communicate with hosts. Includes map-based search, guest feedback, and property management for hosts—making travel and hosting easier for everyone.
+>>>>>>> 474d6a0e1c1f149650b4d5847eea7b7d4a9c3eba
