@@ -1,87 +1,81 @@
-<<<<<<< HEAD
 # 🌍 WanderLust Project 🏡
 
 ## Project Overview
-**WanderLust** is a full-stack web application designed for browsing and booking vacation accommodations, including houses, villas, and farmhouses. Users can explore available properties, make bookings, and even list their own properties. The platform integrates real-time location mapping via **Mapbox API** and supports fast login with **Google OAuth** and **GitHub OAuth**. WanderLust is built to provide an intuitive, secure, and responsive user experience.
+**WanderLust** is a comprehensive full-stack application built to simplify the process of discovering and reserving holiday homes, including farmhouses, villas, and private stays. Visitors can browse available listings, arrange reservations, and even add their own properties for others to book. The platform features real-time mapping powered by **Mapbox API** and supports quick authentication with **Google OAuth** and **GitHub OAuth**. The goal is a secure, dynamic experience for all travelers and hosts.
 
 ---
 
 ## 🌐 Front-End
 
-**Technologies & Frameworks:**  
-- HTML, CSS, JavaScript, Bootstrap, EJS  
-- React.js  
+**Tech Stack:**
+- HTML, CSS, JavaScript, Bootstrap, EJS
+- React.js
 
-**Key Features:**  
-- 📱 **Responsive Design:** Optimized for desktop, tablet, and mobile  
-- 🔍 **User-Friendly Interface:** Search, view, and list properties easily  
-- 🗺️ **Mapbox Integration:** Real-time property locations and location-based search  
+**Highlights:**
+- 📱 **Responsive Layout:** Optimized for any device
+- 🔍 **Intuitive UI:** Effortless searching and property management
+- 🗺️ **Live Mapping:** Display locations and enable location-based searches
 
 ---
 
 ## 🛠️ Back-End
 
-**Technologies:**  
-- Node.js, Express.js  
+**Tech Stack:**
+- Node.js, Express.js
 
-**Key Features:**  
-- 🧩 **RESTful API:** Handles user interactions and property management  
-- 🔒 **User Authentication & Authorization:** Using Passport.js and JWT  
-- 📄 **Endpoints:** Property listing, user management, login/signup  
-- 🏷️ **Booking System:** Simplified and seamless reservation process  
+**Functionality:**
+- 🧩 **RESTful API:** Powers all user and property interactions
+- 🔒 **Secure Login/Access:** Passport.js with JWT handles authentication and permissions
+- 📄 **Custom Endpoints:** Manage bookings, user accounts, and listings
+- 🏷️ **Booking Engine:** Efficient reservation flow
 
 ---
 
 ## 🗄️ Database
 
-**Database:** MongoDB Atlas  
+**Solution:** MongoDB Atlas
 
-**Key Features:**  
-- 🗂️ **Structured Schema:** Efficient organization of users and properties  
-- 🔍 **Database Queries:** Retrieve and store property and user information  
+**Features:**
+- 🗂️ **Structured Models:** Well-organized collections for users and properties
+- 🔍 **Optimized Queries:** Fast access to user and listing data
 
 ---
 
 ## ☁️ Cloudinary Image Storage
-- All property images are securely hosted on **Cloudinary**  
-- Ensures optimized performance, accessibility, and enhances the user experience  
+- Property images are safely uploaded and delivered through **Cloudinary** for faster load times and reliability.
 
 ---
 
-## 🌟 Additional Features
-- 🔍 **Search & Filter:** Advanced property search  
-- ⭐ **User Reviews & Ratings:** Users can review and rate properties  
-- 🔐 **Security:** Encryption, data validation, and secure authentication  
-- 🗺️ **Map Integration:** For location-based features  
-- 📊 **Client & Server Validations:** Ensures smooth operation  
-- 🎨 **EJS Templates:** Modular routing and dynamic views  
-- 🍪 **Cookies & Sessions:** User-friendly authentication and notifications  
-- 🏗️ **MVC Architecture:** Organized and scalable code structure  
-- 💾 **Multer:** Handles file uploads  
+## 🌟 Extra Functionalities
+- 🔍 **Search & Filter:** Advanced search options for every need
+- ⭐ **Reviews & Ratings:** Guests share feedback and rate properties
+- 🔐 **Robust Security:** End-to-end data safety and input validation
+- 🗺️ **Mapping:** For enhanced discovery features
+- 📊 **Validation:** Both client and server-side checks
+- 🎨 **Dynamic Templating:** Modular EJS routes and views
+- 🍪 **Session Management:** Seamless user logins and notifications
+- 🏗️ **MVC Structure:** Maintainable, organized architecture
+- 💾 **File Uploads:** Managed by Multer
 
 ---
 
 ## 🚀 Deployment
-- The application is deployed using **Render** and connected with **MongoDB Atlas** for database management.  
+- Hosted on **Render** with database operations on **MongoDB Atlas** for scalable, hassle-free deployment.
 
-
+---
 
 ## 🛠️ Technologies & Packages Used
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB Atlas, Mongoose  
-- **Authentication:** Passport.js, Passport Local, Passport Local Mongoose, JWT  
-- **File Handling:** Multer, Cloudinary  
-- **Frontend & Templates:** HTML, CSS, JavaScript, Bootstrap, React.js, EJS  
-- **Sessions & Cookies:** Express Session, Connect Mongo, Cookie Parser, Connect Flash  
-- **Validation & Environment:** Joi, Dotenv  
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas, Mongoose
+- **Authentication:** Passport.js (local & JWT), Passport Local Mongoose
+- **File Uploads:** Multer, Cloudinary
+- **Front-End:** HTML, CSS, JavaScript, Bootstrap, React.js, EJS
+- **Sessions & Cookies:** Express Session, Connect Mongo, Cookie Parser, Connect Flash
+- **Validation & Config:** Joi, Dotenv
 
 ---
 
 ## ✍️ Author
-**@Devidatta Mishra**  
+**Anshuvriti Pradhan** 
 
-This project demonstrates full-stack web development proficiency, including creating responsive front-end interfaces, managing back-end functionality, handling database operations, and integrating third-party APIs for enhanced user experience.
-=======
-# Wanderlust
-A web app for exploring, booking, and hosting short-term stays. Users can search curated listings, review properties, securely book accommodations, and communicate with hosts. Includes map-based search, guest feedback, and property management for hosts—making travel and hosting easier for everyone.
->>>>>>> 474d6a0e1c1f149650b4d5847eea7b7d4a9c3eba
+This application showcases full-stack proficiency: from crafting adaptive UIs and managing server logic, to efficient database design and seamless integration with external APIs—delivering a smooth ecosystem for modern travelers and hosts.
